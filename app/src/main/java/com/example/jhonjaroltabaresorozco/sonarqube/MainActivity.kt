@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
             return false
         }
 
+        return true
+
     }
 }
 
