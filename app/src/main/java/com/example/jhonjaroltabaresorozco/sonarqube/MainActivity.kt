@@ -11,14 +11,19 @@ class MainActivity : AppCompatActivity() {
         returnIf()
     }
 
-    private fun returnIf(): Boolean{
+    private fun returnIf(): Int{
+
+        val count : Int
+
+        count=+4
+
         if("hola" == ""){
-            return true
+            return count
         }else{
-            return false
+            return count
         }
 
-        return true
+        return count
     }
 
 }
